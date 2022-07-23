@@ -1,0 +1,17 @@
+Sum of squares
+february 2014
+
+Solving strategy:
+
+I started from the last row and column, deciding how many 9s in each
+go on with the hook 8, 7 and so on, looking at the possible combination (i.e. can the number in the hook 8 be a sum of 8s and a 9?), reasoning like that I could exclude all the wrong solutions and slowly build the right one
+writing things on the board was very useful
+
+Solution:
+
+158
+
+Time:
+~ 32 minutes
+
+best solution: 158

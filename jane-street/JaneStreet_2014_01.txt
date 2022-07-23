@@ -1,0 +1,23 @@
+Sum of squares
+january 2014
+
+Solving strategy:
+
+filling the last column based on the highest possible number (i.e. 8 for number 4 and 0 for number 5) 
+filling each row with the highest-sum number starting from the top: I can probably change the last numbers to make the whole number divisible by the number from 6 to 9 
+at the last two rows, start reasoning on the best number for each column as well (last 5 and last column are always good only with 0 so they are not a problem). Basically see which combinations seem good.
+I know that this is a greedy approach and it isn’t the optimal solution, but I also knew that the best solution couldn’t be far off since it’s for sure <9*24=216
+
+Solution:
+
+200, 
+99999
+99998
+98997
+99696
+67890
+
+Time:
+~ 10 minutes
+
+best solution: 205
